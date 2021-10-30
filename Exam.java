@@ -8,10 +8,10 @@ public class Exam
 		for(int i=2;i<=n;i++)
 		{
 		    double check=(double)Math.pow(x,i);
-		    double val=fact(i);
-		    sum+=(check/val);
+		    double f=fact(i);
+		    sum= sum +(check/f);
 		}
-		System.out.println(sum);
+		System.out.println(" The value of sereis is: "+sum);
 	}
 	public static double fact(double n)
 	{
